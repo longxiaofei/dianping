@@ -12,6 +12,10 @@ requests
 3. 请求svg的url，获取请求成功后的结果，解析出偏移坐标所对应的字体，并与class的偏移坐标做映射
 4. 将原html的字体span标签替换
   
+### Demo
+![image](https://github.com/longxiaofei/markdown_img/blob/master/dianping/1.png?raw=true)
+![image](https://github.com/longxiaofei/markdown_img/blob/master/dianping/2.jpeg?raw=true)
+  
 ### Use
 ```
 from dianping import DianpingComment
@@ -28,7 +32,10 @@ if __name__ == "__main__":
 ```
   
 ### Tip
-1. 一些异常没有特殊处理，只是打了断言，自行改进
+1. 一些异常没有特殊处理，只是打了断言，请自行改进
+2. 如果程序开始时报错，可以用浏览器打开商家详情页，手动跳过验证
+3. 默认爬取速度为7秒1页
+4. 登录后将cookie存入COOKIES变量
   
 ### Todo
 1. 上传代码
