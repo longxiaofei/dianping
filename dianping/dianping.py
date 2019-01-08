@@ -31,10 +31,8 @@ class DianpingComment:
             # self._browser = self._init_browser()
             # self._handle_ban()
 
-        self._main()
 
-
-    def _main(self):
+    def run(self):
         self._css_link = self._get_css_link(self._cur_request_url)
         self._font_dict = self._get_font_dict(self._css_link)
         self._get_conment_page()
