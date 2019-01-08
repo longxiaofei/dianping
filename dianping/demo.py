@@ -10,4 +10,5 @@ class Customer(DianpingComment):
 
 if __name__ == "__main__":
     dianping = Customer('3262456', cookies=COOKIES)
+    dianping.run()
 
