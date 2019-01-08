@@ -22,7 +22,6 @@ class DianpingComment:
         self._default_headers = {
             'Connection': 'keep-alive',
             'Host': 'www.dianping.com',
-            'Referer': 'http://www.dianping.com',
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
         }
         self._cur_request_url = 'http://www.dianping.com/shop/{}/review_all/p1'.format(shop_id)
